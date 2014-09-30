@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>1.0.0</version>
+    <authors>mausch, CezarCretu</authors>
+    <owners>VeriTech</owners>
+    <id>VeriTech.SolrNet</id>
+    <title>VeriTech.SolrNet</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>VeriTech fork of Solr.net</description>
+    <copyright>VeriTech 2014</copyright>
+    <projectUrl>https://github.com/vtfuture/SolrNet</projectUrl>
+    <language>en-US</language>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\SolrNet\bin\Debug\SolrNet.dll" target="lib\net45" />
+    <file src="..\SolrNet\**\*.cs" target="src" />
+    <file src="..\HttpWebAdapters\bin\debug\HttpWebAdapters.dll" target="lib\net45" />
+  </files>
+</package>
