@@ -55,6 +55,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{648832
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuspec", ".nuspec", "{EE524D0E-52F3-48C7-B00B-78238D0F37BE}"
 	ProjectSection(SolutionItems) = preProject
+		Ninject.Integration.SolrNet.nuspec = Ninject.Integration.SolrNet.nuspec
 		SolrNet.nuspec = SolrNet.nuspec
 	EndProjectSection
 EndProject

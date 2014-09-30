@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>1.0.0</version>
+    <authors>mausch, CezarCretu</authors>
+    <owners>VeriTech</owners>
+    <id>VeriTech.SolrNet.Ninject</id>
+    <title>VeriTech.SolrNet.Ninject</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Ninject integration for VeriTech.SolrNet</description>
+    <copyright>VeriTech 2014</copyright>
+    <projectUrl>https://github.com/vtfuture/SolrNet</projectUrl>
+    <language>en-US</language>
+    <dependencies>
+		<dependency id="VeriTech.SolrNet" />
+		<dependency id="Ninject" version="3.2.2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\Ninject.Integration.SolrNet\bin\Debug\Ninject.Integration.SolrNet.dll" target="lib\net45" />
+    <file src="..\Ninject.Integration.SolrNet\**\*.cs" target="src" />
+  </files>
+</package>
